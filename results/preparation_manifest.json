@@ -1,0 +1,48 @@
+{
+  "audit": {
+    "raw_compounds": 545,
+    "eligible_compounds": 536,
+    "mapped_rna_cells": 720,
+    "rna_genes": 19193,
+    "response_pairs": 312760,
+    "raw_curves": 395263,
+    "mapped_snp_matched_curves": 320763,
+    "excluded_nonfinite": 0,
+    "excluded_under_eight_points": 0,
+    "cell_mapping": {
+      "matched": 977,
+      "no_rna": 59,
+      "unmapped": 54,
+      "ambiguous": 17
+    },
+    "experiment_qc": {
+      "SNP-matched-reference": 915,
+      "SNP-not-tested": 107,
+      "SNP-unconfirmed": 39
+    },
+    "endpoint": "negative native CTRPv2 AUC",
+    "prism_inputs": []
+  },
+  "inputs": {
+    "archive": "8f62b3b5ed70cfd367cf52ce0a99884dd0a674d1a8c301474b707648689bdee3",
+    "model": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+    "expression": "2a71dc94110efcc0221eae821bb93a9f03b54bea16f005818911a09d33383d56"
+  },
+  "members": {
+    "v20.meta.per_compound.txt": "c81c01949d3d1d79c8dfd5afbd4faa0f1f10db388074b38d2d6740184ef30bda",
+    "v20.meta.per_cell_line.txt": "1ed4a596085691dce088cf0e20937960f38f5714d7c7fd01e46af4b3a23bb5b3",
+    "v20.meta.per_experiment.txt": "6b4e60da8b75db8301c3448e0f2261be7295a5978da1bb17db3711a52ac0463f",
+    "v20.data.curves_post_qc.txt": "b97bb9004f97ff7d5910c0f66c6d26163a2ce88529eaefc5df0e51624e5ac6a9"
+  },
+  "outputs": {
+    "cells.csv": "18c6f13259e533149e90ce1df7d4b00bb6df9f74647752798ad0c150d2f9fe59",
+    "cell_mapping.csv": "731ac902b268c3c41b0eb61a1b91b05a876ed13209eb3ec34295b73d97cd4caf",
+    "compounds.csv": "af9e03694fbbe817e043174e4281d88cbbe0e751c729a8937272f8228bc6bbfc",
+    "expression.npy": "97975d8156e8cf3df1a6d98d69681fd64f0adc9c757c8b9fd47a78aaba3e792c",
+    "genes.csv": "8d69523ac9706023cebf94f24e065c57a8b2d82bb2e32dce64a3e327b5a8ff6b",
+    "responses.parquet": "51282fe8cf9e7c52ad5a5d47bdf97cd8b133419d4e1034306544dd45f230ceb7"
+  },
+  "protocol_sha256": "33f02afec0f345c4963a27f3c244e491abf596e87362fc6c1ce4ecdfb7a82fe4",
+  "prepare_sha256": "1194bbcf8022d11cfa8a2860c5727fe8bd7c2f208c01c5b66bafc0a451ad2349",
+  "research_use": "CTD2 investigative reuse; commercial permission not asserted"
+}

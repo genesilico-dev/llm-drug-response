@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+data/
+outputs/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.log
+*.pem
+*.key
+auth_token.txt
